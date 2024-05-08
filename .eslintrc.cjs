@@ -15,5 +15,6 @@ module.exports = {
 			{ allowConstantExport: true },
 		],
 		'no-mixed-spaces-and-tabs': false,
+		'no-unused-vars': 'off',
 	},
 };
