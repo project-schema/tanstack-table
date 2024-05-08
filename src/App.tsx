@@ -44,29 +44,51 @@ function App() {
 			<ColumnResizingPerformant />
 			<ColumnSizing />
 			<ColumnVIsibility />
-			<CustomFeatures />
-			<EditableData />
 			<Expanding />
 			<FilterTable />
+			<EditableData />
 			<FilterFetched />
 			<FilterFuzzy />
 			<FullWidthResizeAbleTable />
 			<FullWidthTable />
 			<FullyControl />
+
 			<Grouping />
 			<KitchenSink />
 			<Pagination />
-			{/* <PaginationControlled /> */}
-			{/* <RowDND /> */}
-			{/* <RowPinning /> */}
 			<RowSelection />
 			<Sorting />
 			<SubComponents />
-			{/* <VirtualizedInfinityScroll /> */}
 			<VirtualizedColumns />
 			<VirtualizedRows />
+
+			<CustomFeatures />
 		</div>
 	);
 }
 
 export default App;
+
+/*
+	<PaginationControlled />  
+	<RowDND /> 
+	<RowPinning /> 
+	<VirtualizedInfinityScroll />  
+*/
+
+/* i like this 
+	<CustomFeatures />
+	<ColumnSizing />
+	<ColumnVIsibility />
+	<FilterTable />
+	<FilterFetched />
+	<FullWidthResizeAbleTable />
+	<FullWidthTable />
+	<Pagination />
+	<RowSelection />
+	<Sorting />
+	<CustomFeatures />
+	<VirtualizedColumns />
+
+
+*/

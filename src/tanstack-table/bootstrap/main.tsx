@@ -91,7 +91,7 @@ export default function BootstrapTable() {
 	return (
 		<div className="p-2">
 			<Header>Bootstrap Table</Header>
-			<BTable striped bordered hover responsive size="sm">
+			<BTable striped bordered hover responsive size="md">
 				<thead>
 					{table.getHeaderGroups().map((headerGroup) => (
 						<tr key={headerGroup.id}>
